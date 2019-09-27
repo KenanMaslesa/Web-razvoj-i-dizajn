@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+  
+  
+  
+  <title>WRD ispit</title>
+
+</head>
+<body> 
+   <div id="glavni">
+
+<div id="lijevo" >
+      <div id="formaneka">
+        <form id="forma" style=" padding: 0;  margin: 0;">
+          <label for="dostavaIme">Ime i prezime</label>
+          <input id="dostavaIme"  placeholder="kupac ime"><br>
+  
+          <label for="dostavaAdresa">Adresa</label>
+          <input id="dostavaAdresa"   placeholder="kupac adresa"><br>
+  
+          <label for="dostavaGrad">Grad</label>
+          <input id="dostavaGrad"  value=""><br>
+  
+          <label for="dostavaTelefon">Telefon</label>
+          <input id="dostavaTelefon"  placeholder="+387-61-888-8888"><br>
+  
+          <label for="proizvodID">ID Proizvoda</label>
+          <textarea id="proizvodID"  style="width: 100%"></textarea><br>
+          <br><br>
+          <label for="kolicina">kolicina</label>
+          <textarea id="kolicina"  style="width: 100%"></textarea><br>
+          <br><br>
+          <input type="button" id="naruci" value="Naruci">
+        </form>
+          
+          
+    </div>
+    
+    <div class="tableispod">
+        <label for="filtiranje">Filtriraj podatke po nazivu</label>
+        <input id="filtiranje1" placeholder="upisi dio naziva">
+        <table id="tabelaID" border="0px" style="width: 100%;table-layout:fixed;">
+          <thead>
+              <tr class="glavno">
+                  <th>Id Proizvod</th>
+                  <th>Naziv</th>
+                  <th>Cijena</th>
+                  <th>Jedinica mjere</th>
+                  <th>Like Counter</th>
+                  <th>Like</th>
+                  <th>Odaberi</th>
+              </tr>
+            </thead>
+            <tbody>
+             
+            </tbody>
+      </table>
+    </div>
+
+</div>
+
+
+<div id="desno">
+
+<div id="gornji">
+<nav>
+  <div id="dugme">
+      <a id="IzbornikDugme"></a><span>BROJ INDEXA</span>
+  </div>
+
+   <div id="Izbornik" style="clear:both" class="">
+  <a class="IzbornikStavka" href="#">Home</a> 
+  <a class="IzbornikStavka" href="#">AMF 1</a> 
+  <a class="IzbornikStavka" href="#">AMF 2</a> 
+  <a class="IzbornikStavka" href="#">AMF 3</a> 
+  <a class="IzbornikStavka" href="#">AMF 4</a> 
+  <a class="IzbornikStavka" href="#">AMF 5</a>
+  <div style="clear:both;"></div>
+</div>
+
+
+</nav>
+<div style="clear:both;"></div>
+</div>
+
+    <div style="clear:both;"></div>
+
+    <div class="donji">
+      <div class="tableispodDesno">
+        <label for="filtiranje">Filtriraj podatke po imenu</label>
+        <input id="filtiranje2" placeholder="upisi dio imena"> 
+    
+        <div id="tableDesno">
+          <table id="narudzbe" border="0" style="width: 100%;table-layout:fixed;">
+            <thead>
+                <tr class="glavno">
+                    <th>ID</th>
+                    <th>Naziv</th>
+                    <th>Cijena</th>
+                    <th>Kolicina</th>
+                    <th>Dostava Ime</th>
+                    <th>Dostava Adresa</th>
+                    <th>Telefon</th>
+                </tr>
+              </thead>
+              <tbody>
+              
+              </tbody>
+        </table>
+      </div>
+    </div>
+    
+      <div class="footer">
+        <p>FIT Mostar</p>
+        <p>IBXXXXXX</p>
+      </div>
+    </div>
+</div>
+
+
+<div style="clear:both;"></div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<script src="wrd_files/script.js"></script>
+
+</body></html>
