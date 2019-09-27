@@ -1,0 +1,142 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#glavni{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#lijevo{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    overflow-y: scroll;
+}
+#desno{
+    width: 50%;
+    height: 100%;
+}
+.donji{
+   
+    height: 50%;
+    overflow-y: scroll;
+    
+}
+#gornji{
+    height: 50%;
+    background-image: url(../img/jezero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input{
+    
+    width: 100%;
+    padding: 7px;
+    background-color: black;
+    color: white;
+    border: black;
+    border-bottom: 3px solid blue;
+}
+#formaneka{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+#proizvodID,#kolicina{
+    background-color: black;
+    color: white;
+    border: black;
+    border-bottom: 3px solid blue;
+}
+
+.tableispod{
+    width: 90%;
+    margin-left: 20px;
+}
+nav{
+    width:33%;
+    height: 100%;
+    background-color: rgba(0, 102, 255, 0.363);
+    color: white;
+    
+}
+#dugme{
+    text-align: left;
+    font-size:25px;
+    padding: 15px;
+}
+a.IzbornikStavka{
+display: block;
+text-decoration: none;
+color: white;
+margin-left: 15px;
+padding:5px;
+}
+a.IzbornikStavka:hover{
+    background-color: rgba(0, 81, 255, 0.473);
+    width:40%;
+}
+.footer{
+    text-align: center;
+}
+input#filtiranje2{
+    background-color: white;
+    border: white;
+}
+th,td{
+   text-align: center;
+    padding-top: 5px;
+    font-size: 12px;
+   
+}
+input#filtiranje2{
+    color:black;
+}
+.error{
+    color: red;
+}
+@media only screen and (max-width:600px)
+{
+    #glavni{
+        
+        flex-direction: column-reverse;
+    }
+    #lijevo{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        bottom:25%;
+      
+       
+    }
+    #desno{
+        width: 100%;
+        height: 50%;}
+        
+    nav,a.IzbornikStavka{
+        display: inline;
+        padding: 0;
+        margin: 4px;
+    }
+    .donji{
+        position: relative;
+        top:100%;
+    }
+    td,th{
+        font-size: 12px;
+    }
+    #dugme{
+        text-align: center;
+        
+    }
+   
+}
